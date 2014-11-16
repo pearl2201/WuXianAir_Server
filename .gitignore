@@ -2,10 +2,10 @@
 .eunit
 deps
 *.o
-*.beam
+# *.beam
 *.plt
 erl_crash.dump
-ebin
+# ebin
 rel/example_project
 .concrete/DEV_MODE
 .rebar
@@ -14,3 +14,11 @@ rel/example_project
 *.log
 *.DAT
 *.LOG
+
+# Folder
+ebin/Mnesia.chat1@127.0.0.1
+ebin/Mnesia.gate1@127.0.0.1
+ebin/Mnesia.guild@127.0.0.1
+ebin/Mnesia.line@127.0.0.1
+ebin/Mnesia.map1@127.0.0.1
+ebin/Mnesia.map2@127.0.0.1
